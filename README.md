@@ -7,7 +7,7 @@ A student information management program in C
 
 ## About this project:
 
-The program is named mngstd *(**m**a**n**a**g**e **st**u**d**ents)*, and it uses data structures to export information and statistics for the secretary office of a university. All the information is stored in a data structure which has an access cost of O(1), therefore a hash table. Furthermore, because the program has to answer queries for certain groups of students in reasonable time *(ie the entries of the hash tables cannot be iterated for every query)*, an inverted index data structure is used in combination of the hash table.
+The program is named mngstd *(**m**a**n**a**g**e **st**u**d**ents)*, and it uses data structures to export information and statistics for the secretary office of a university. All the information is stored in a data structure which has an access cost of O(1), therefore a hash table. Furthermore, because the program has to answer queries for certain groups of students in small and reasonable time *(ie the entries of the hash tables cannot be iterated for every query)*, an inverted index data structure is used in combination of the hash table and the merge sort algorithm.
 
 More specifically. Information about the students is inserted into the hash table based on their unique StudentID (key). This information can be inserted or removed any time and consists of the following students information: his/her full name, home address, postal code, year of entry and GPA.
 
