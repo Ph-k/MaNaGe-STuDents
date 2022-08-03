@@ -1,4 +1,4 @@
-/*---Credits to professor alex delis for the project---*/
+/*---Credits to professor alex delis for the file---*/
 COMMAND: i(nsert) studentid lastname firstname zip year gpa
 EXPECTED OUTPUT:
 	- Student |studentid| inserted
