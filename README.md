@@ -3,7 +3,7 @@
 
 A student information management program in C
 
-*This program was written a part of the Operating System course at DIT – UoA. Credits to the professor of the course at the time, [Alex Delis](https://www.alexdelis.eu/).*
+*This program was written as part of the Operating System course at DIT – UoA. Credits to the professor of the course at the time, [Alex Delis](https://www.alexdelis.eu/).*
 
 ## About this project:
 
