@@ -17,7 +17,7 @@ All the data structures memory is dynamically allocated, allowing for theoretica
 
 ## Project compilation/makefile usage:
 
-The makefile can effortless compile the entirety of the program by simply typing `make` on a tty. The only requirement is a linux/unix machine running a stable version of the gcc compiler. *Personally the program worked fine on Debian based distros.*
+The makefile can effortless compile the entirety of the program by simply typing `make` on a tty (in the Source directory). The only requirement is a linux/unix machine running a stable version of the gcc compiler. *Personally the program worked fine on Debian based distros.*
 
 ## mngstd usage:
 
