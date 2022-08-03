@@ -11,7 +11,7 @@ The program is named mngstd *(**m**a**n**a**g**e **st**u**d**ents)*, and it uses
 
 More specifically. Information about the students is inserted into the hash table based on their unique StudentID (key). This information can be inserted or removed any time and consists of the following students information: his/her full name, home address, postal code, year of entry and GPA.
 
-The inverted index groups the above student information based on the year of entry of each student, by having a list of pointers to the according hash table entries. This way we can fast & easily get a list of students based on their entry year without wasting memory *(ie creating a whole new data structure)* and computational resources *(ie iterating the hash table entries one by one)*.
+The inverted index groups the above student information based on the year of entry of each student, by having a list of pointers to the according hash table entries. This way we can fast & easily get a list of students based on their entry year without wasting memory *(ie creating a whole new data structure, with new/duplicate entries)* and computational resources *(ie iterating the hash table entries one by one)*.
 
 All the data structures memory is dynamically allocated, allowing for theoretical infinite (as infinite as your systems memory) number of student records.
 
