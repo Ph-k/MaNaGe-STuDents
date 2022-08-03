@@ -1,0 +1,60 @@
+/*---Credits to professor alex delis for the project---*/
+COMMAND: i(nsert) studentid lastname firstname zip year gpa
+EXPECTED OUTPUT:
+	- Student |studentid| inserted
+ERROR INDICATION:
+	- Student |studentid| exists;
+
+COMMAND: l(ook-up) studentid
+EXPECTED OUTPUT:
+	- |studentid| |lastname| |firstname| |zip| |year| |gpa|
+ERROR INDICATION:
+	- Student |studentid| does not exist
+
+COMMAND: d(elete) studentid
+EXPECTED OUTPUT:
+	- Record |studentid| deleted
+ERROR INDICATION:
+	- Student |studentid| does not exist
+
+COMMAND: n(umber) year
+EXPECTED OUTPUT:
+	- |count| student(s) in |year|
+ERROR INDICATION:
+	- No students enrolled in |year|
+
+COMMAND: t(op) num year
+EXPECTED OUTPUT:
+	- list(|studentid|)
+ERROR INDICATION:
+	- No students enrolled in |year|
+
+COMMAND: a(verage) year
+EXPECTED OUTPUT:
+	- |avg_gpa|
+ERROR INDICATION:
+	- No students enrolled in |year|
+
+COMMAND: m(inumum) year
+EXPECTED OUTPUT:
+	- list(|studentid|)
+ERROR INDICATION:
+	- No students enrolled in |year|
+
+COMMAND: c(ount)
+EXPECTED OUTPUT:
+	- list({|year|, |count|})
+ERROR INDICATION:
+	- No students are enrolled
+
+COMMAND: p(ostal code) rank
+EXPECTED OUTPUT:
+	- list(|zip|) is/are |rank| most popular
+ERROR INDICATION:
+	- No students are enrolled
+
+COMMAND: e(xit)
+EXPECTED OUTPUT:
+	- exit program
+ERROR INDICATION:
+	- none
