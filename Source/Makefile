@@ -1,4 +1,4 @@
-# Code from https://github.com/Ph-k/Manage-STuDents. Philippos Koumparos (github.com/Ph-k)
+# Code from https://github.com/Ph-k/MaNaGe-STuDents. Philippos Koumparos (github.com/Ph-k)
 
 CC = gcc
 objects = main.o Controller.o fileReader.o HashTable.o LinkedList.o Student.o

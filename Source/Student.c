@@ -1,4 +1,4 @@
-/* Code from https://github.com/Ph-k/Manage-STuDents. Philippos Koumparos (github.com/Ph-k)*/
+/* Code from https://github.com/Ph-k/MaNaGe-STuDents. Philippos Koumparos (github.com/Ph-k)*/
 
 #include <string.h>
 #include <stdlib.h>
